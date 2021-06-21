@@ -4,10 +4,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
   <title>page</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    .container {
+      width: 20%;
+      padding: 20px;
+      margin: 50px auto;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 1px 1px 3px 1px black;
+      background-color: rgba(0, 0, 0, 0.1)
+    }
+
+    h1 {
+      margin: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: 600;
+      color: rgb(80, 80, 80);
+    }
+  </style>
 </head>
 <body>
-  <h1>Page</h1>
-  <a href="http://127.0.0.1:8000">Return to home page</a>
+
+  <div class="container">
+
+    <h1>Page</h1>
+    <a href="http://127.0.0.1:8000">Return to home page</a>
+
+  </div>
+
 </body>
 </html>
